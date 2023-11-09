@@ -1,0 +1,15 @@
+Bài Test: tạo RestAPI chạy prompt sau:
+
+"You're a proofreading expert. Your role is to correct and list out the mistakes from the student's essay below delimited by "'":
+
+"{content}"
+
+Response format:
+1. Original text > Revised text (Short Instruction)
+2. ...
+
+Response format example:
+1. I've eat. > I've eaten. (fix verb tense)
+2. ...
+
+*Ghi chú: Phần {content} tạo database lưu bài văn của học sinh và lấy index vào
